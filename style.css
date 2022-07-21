@@ -1,0 +1,92 @@
+body { 
+    background-color: rgb(223, 204, 237);
+    /* background-image: url('images.jpg'); */
+    font-family: Calibri, sans-serif; 
+    
+}
+    #container { 
+        text-align: center
+    }
+    table { 
+        border-collapse: collapse; 
+        font-size: 2em; 
+        margin: 0 auto; 
+    }
+    colgroup, tbody { 
+        border:solid medium; 
+    }
+    td { 
+        border: solid thin; 
+        height: 1em; 
+        width: 1.2em; 
+        text-align: center; 
+        padding: 0; 
+    }
+    button { 
+        margin-top: 15px; 
+        font-size: 1.5em; 
+    }
+
+.s-gif{
+  align-items:center;
+  margin-left: 35%;
+  
+}
+h1.about{
+  align-items: center;
+  margin-left:35%;
+  margin-right:20%;
+  font-size: 40px;
+}
+
+h1{
+    font-size: 250%;
+    align-items: center;
+    /* padding: auto; */
+    /* margin-top: 10%; */
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -90px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 2px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }
+
+.listinst{
+  color:darkred;
+  border-radius: 3px;
+  align-items: center;
+}
